@@ -1,0 +1,26 @@
+header_prefix: 'Version:'
+pull_request_title_regex: '^Release'
+group_config:
+  - title: Bug Fixes
+    labels:
+      - bug
+      - bugfix
+      - fix
+  - title: Code Improvements
+    labels:
+      - improvements
+      - enhancement
+      - refactor
+      - style
+  - title: New Features
+    labels:
+      - feature
+      - feat
+  - title: Tests
+    labels:
+      - test
+  - title: Documentation Updates
+    labels:
+      - docs
+      - documentation
+      - doc
